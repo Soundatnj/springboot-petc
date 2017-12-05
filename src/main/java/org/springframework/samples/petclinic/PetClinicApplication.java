@@ -20,7 +20,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.context.annotation.ComponentScan;
+//import org.springframework.context.annotation.ComponentScan;
 /**
  * PetClinic Spring Boot Application.
  * 
@@ -28,7 +28,7 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 @SpringBootApplication
-@ComponentScan(basePackages="org.springframework.samples")
+//@ComponentScan(basePackages="org.springframework.samples")
 @EnableWebMvc
 public class PetClinicApplication extends SpringBootServletInitializer {
 
