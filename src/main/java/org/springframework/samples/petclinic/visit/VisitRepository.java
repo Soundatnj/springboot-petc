@@ -30,6 +30,7 @@ import org.springframework.samples.petclinic.model.BaseEntity;
  * @author Sam Brannen
  * @author Michael Isvy
  */
+@org.springframework.stereotype.Repository
 public interface VisitRepository extends Repository<Visit, Integer> {
 
     /**
